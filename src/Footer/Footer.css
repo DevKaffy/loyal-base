@@ -13,3 +13,6 @@ footer{
 .footer-flex{
     @apply flex items-center justify-between
 }
+.footer-flex p{
+    @apply font-bold
+}

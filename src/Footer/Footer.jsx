@@ -13,7 +13,7 @@ const Footer = () => {
             Nigeria.
           </p>
         </div>
-        <p>Loyalbaze is almost here.</p>
+        <p className='text-[1.25rem]'>Loyalbaze is almost here.</p>
         <div className="footer-right">
           <img src="/Vector.png" alt="" />
           <p>+234 903 618 9485</p>
