@@ -1,0 +1,6 @@
+.about{
+    @apply py-[4.37rem] absolute top-[60.43rem]
+}
+.about-img{
+    @apply right-[9.5rem]
+}
