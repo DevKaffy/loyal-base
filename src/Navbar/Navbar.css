@@ -1,12 +1,12 @@
 .navbar{
-    @apply px-[6.25] flex items-center justify-between
+    @apply px-[6.25] flex items-center justify-between;
 }
 .navbar img{
-    @apply w-[14.43rem] h-[3.87rem]
+    @apply w-[14.43rem] h-[3.87rem];
 }
 
 .priority{
-    @apply h-[2rem] w-[10rem] rounded-full outline-none;
+    @apply h-[2rem] w-[10rem] rounded-full outline-none font-bold;
     border:2px solid;
     border-image: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%) 5;
     border-radius: 50px;

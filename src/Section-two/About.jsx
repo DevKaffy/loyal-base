@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../Button/Button';
+import Footer from '../Footer/Footer';
 import './About.css'
 
 const About = () => {
@@ -56,11 +57,13 @@ const About = () => {
             ></textarea>
           </div>
           <Button
-            className="third-button outline-none border-none"
-            label="Get early access"
+            className="third-button outline-none border-none font-bold"
+            label="Send Request"
           />
         </form>
+        <img className="star-seven" src="/Star.png" alt="" />
       </div>
+      <Footer />
     </section>
   );
 }

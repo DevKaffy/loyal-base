@@ -1,9 +1,9 @@
 .form{
-    @apply flex flex-col gap-[3rem]
+    @apply flex flex-col gap-[3rem];
 }
 .form-div{
-    @apply w-[27.68rem] h-[3.12rem] border border-white absolute top-[35.06rem]  left-[30%] flex items-center gap-2 px-6 rounded
+    @apply w-[27.68rem] h-[3.12rem] border border-white absolute top-[35.06rem]  left-[35%] flex items-center gap-2 px-6 rounded;
 }
 .form-div input{
-    @apply px-1 outline-none rounded bg-transparent
+    @apply px-1 outline-none rounded bg-transparent;
 }

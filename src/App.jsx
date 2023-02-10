@@ -4,6 +4,7 @@ import Circle from './Circle/Circle';
 import Input from './Input/Input';
 import Button from './Button/Button';
 import About from './Section-two/About';
+import Footer from './Footer/Footer';
 
 const lists = [
   {
@@ -48,47 +49,55 @@ function App() {
         </h1>
         <img className="star-two" src="/Star.png" alt="" />
         <p className="description">
-          Loyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers. With our AI Powered platform, you can easily create and manage custom loyalty and rewards programs, track customer engagement, and gain valuable insights to improve your business. Sign up now to get early access.
+          Loyalbaze, empowers businesses to offer digital, mobile-first loyalty
+          programs to their customers. With our AI Powered platform, you can
+          easily create and manage custom loyalty and rewards programs, track
+          customer engagement, and gain valuable insights to improve your
+          business. Sign up now to get early access.
         </p>
         <img className="arrow" src="/arrow.png" alt="" />
-      <div
-        style={{
-          background: "linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%)",
-          width: "25rem",
-          height: "25rem",
-          borderRadius: "50%",
-          boxShadow: "inset 1.02px 2.04px 51px #001D6E",
-          position: "absolute",
-          top: "23.87rem",
-          right: "-10rem",
-          filter: "blur(0.93rem)",
-        }}
-        ></div>
-      <Input />
-      <Button className="second-button outline-none border-none" label="Get early access" />
-      <div className="absolute flex items-center justify-center top-[50rem] m-auto left-[35rem]">
-        {lists.map((list, index) => (
-          <div
-          key={`lists -${index}`}
+        <div
           style={{
-            background: list.color,
-            width: "2rem",
-            height: "2rem",
+            background: "linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%)",
+            width: "25rem",
+            height: "25rem",
             borderRadius: "50%",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
+            boxShadow: "inset 1.02px 2.04px 51px #001D6E",
+            position: "absolute",
+            top: "23.87rem",
+            right: "-10rem",
+            filter: "blur(0.93rem)",
+          }}
+        ></div>
+        <Input />
+        <Button
+          className="second-button outline-none border-none font-bold left-[35%]"
+          label="Get early access"
+        />
+        <div className="absolute flex items-center justify-center top-[50rem]  left-[38rem]">
+          {lists.map((list, index) => (
+            <div
+              key={`lists -${index}`}
+              style={{
+                background: list.color,
+                width: "2rem",
+                height: "2rem",
+                borderRadius: "50%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginRight: "-0.2rem",
+              }}
             >
-            {list.initial}
-          </div>
-        ))}
-        <p className="ml-[1rem] font-bold">+57 joined</p>
-      </div>
-      <img className="star-three" src="/Star.png" alt="" />
-      <img className="star-four" src="/Star.png" alt="" />
+              {list.initial}
+            </div>
+          ))}
+          <p className="ml-[1rem] font-bold">+57 joined</p>
         </div>
-        <About/>
+        <img className="star-three" src="/Star.png" alt="" />
+        <img className="star-four" src="/Star.png" alt="" />
+      </div>
+      <About />
     </section>
   );
 }

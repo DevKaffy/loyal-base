@@ -1,0 +1,15 @@
+footer{
+    @apply absolute top-[74.18rem] border-t-2 border-white left-[6.25rem] pt-[1rem] right-[6.25rem] w-[70rem] pb-[4rem]
+}
+.footer-left{
+    @apply flex gap-[1rem] items-start
+}
+.footer-left p{
+    @apply w-[17.93rem]
+}
+.footer-right {
+@apply flex gap-[1rem] items-start
+}
+.footer-flex{
+    @apply flex items-center justify-between
+}
