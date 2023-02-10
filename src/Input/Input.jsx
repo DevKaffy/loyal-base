@@ -3,7 +3,7 @@ import './Input.css'
 
 const Input = () => {
   return (
-    <form>
+    <form className='.form'>
       <div className="form-div">
         <img src="/profilecircle.png" alt="" />
         <input type="text" placeholder="Tell us your name" />

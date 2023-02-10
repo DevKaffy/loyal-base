@@ -46,11 +46,9 @@ function App() {
         <h1 className="header">
           Turn your best customers into <span> Loyal fans</span>
         </h1>
-        <img className="star-two" src="/public/Star.png" alt="" />
+        <img className="star-two" src="/Star.png" alt="" />
         <p className="description">
-          Get ready to revolutionize the way you interact with your customers
-          and drive sales with Loyalbaze. Join the waiting list now to be among
-          the first to experience the future of customer loyalty.
+          Loyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers. With our AI Powered platform, you can easily create and manage custom loyalty and rewards programs, track customer engagement, and gain valuable insights to improve your business. Sign up now to get early access.
         </p>
         <img className="arrow" src="/arrow.png" alt="" />
       <div
@@ -67,8 +65,7 @@ function App() {
         }}
         ></div>
       <Input />
-      <Input />
-      <Button className="second-button" label="Get early access" />
+      <Button className="second-button outline-none border-none" label="Get early access" />
       <div className="absolute flex items-center justify-center top-[50rem] m-auto left-[35rem]">
         {lists.map((list, index) => (
           <div
@@ -86,10 +83,10 @@ function App() {
             {list.initial}
           </div>
         ))}
-        <p className="ml-[1rem]">+57 joined</p>
+        <p className="ml-[1rem] font-bold">+57 joined</p>
       </div>
-      <img className="star-three" src="/public/Star.png" alt="" />
-      <img className="star-four" src="/public/Star.png" alt="" />
+      <img className="star-three" src="/Star.png" alt="" />
+      <img className="star-four" src="/Star.png" alt="" />
         </div>
         <About/>
     </section>

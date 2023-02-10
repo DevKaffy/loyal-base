@@ -1,6 +1,55 @@
 .about{
-    @apply py-[4.37rem] absolute top-[60.43rem]
+    @apply py-[4.37rem] relative top-[45rem]
 }
 .about-img{
-    @apply right-[9.5rem]
+    @apply absolute left-[70.18rem] top-[4.37rem]
+}
+.highlight{
+    @apply absolute left-[36.64rem] top-[8.62rem]
+}
+.about-container{
+    @apply absolute flex items-center gap-[12rem] top-[14.12rem] left-[5rem] my-[2rem]
+}
+.left-section{
+    @apply mt-[3.87rem] w-[24rem]
+}
+.about-title{
+    @apply text-[3rem]
+}
+.star-five{
+    @apply ml-[21rem] mb-[4.12rem]
+}
+.title-flex{
+    @apply flex flex-col items-center
+}
+.paragraph{
+    @apply mt-[1.5rem]
+}
+.star-six{
+    @apply  w-[3rem] h-[4rem] ml-[37.18rem]
+}
+.second-form{
+    @apply w-[35.56rem] bg-[#1D2939] rounded py-[3.5rem] px-[4.37rem]
+}
+form p{
+@apply font-bold text-2xl mb-[2rem]
+}
+.form-input{
+    @apply flex flex-col gap-[1rem] 
+}
+.form-input input{
+    @apply w-[27.68rem] h-[3.12rem] px-[1rem] py-[1rem] rounded bg-transparent border border-white
+}
+.form-input select{
+    @apply w-[27.68rem] h-[3.12rem] px-[1rem] rounded bg-transparent border border-white outline-none
+}
+select option{
+    @apply bg-black outline-none px-[1rem]
+}
+.form-input textarea{
+    @apply w-[27.68rem] px-[1rem] rounded bg-transparent border border-white py-[1rem]
+}
+.third-button{
+    @apply w-[27.68rem] h-[3.12rem] border border-white px-6 rounded-full mt-[2rem];
+   background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
 }

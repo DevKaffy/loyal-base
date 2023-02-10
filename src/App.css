@@ -2,31 +2,31 @@
   @apply px-[2.25rem] py-16 relative
  }
  .star{
-  @apply w-[2rem] h-[2.5rem] left-[28.87rem] absolute top-[13.5rem]
+  @apply left-[28.87rem] absolute top-[13.5rem]
  }
  .header{
-  @apply text-[4rem] font-black absolute left-[19.93rem] top-[15.5rem] w-[50.12rem]
+  @apply text-[4rem] font-black absolute left-[19.93rem] top-[15.5rem] w-[50.12rem] text-center leading-[130%];
  }
  .header span{
   @apply bg-clip-text text-transparent bg-[#BA2AD1] text-center
  }
 .description{
-  @apply absolute h-[6.81rem] w-[50.62rem] top-[26.62rem] left-[20.68rem] text-center mt-[0.75rem]
+  @apply absolute h-[6.81rem] max-w-[50.62rem] top-[26.62rem] left-[20.68rem] text-center mt-[0.75rem]
 }
 .star-two{
-  @apply w-[2rem] h-[2.5rem] left-[72.43rem] absolute top-[19.65rem]
+  @apply left-[72.43rem] absolute top-[19.65rem]
  }
  .arrow{
-  @apply absolute top-[31.95rem] right-[19.81rem] left-[61.83rem]
+  @apply absolute top-[31.95rem] right-[19.81rem] 
  }
    .second-button{
    @apply w-[27.68rem] h-[3.12rem] border border-white absolute top-[45rem] left-[30%] px-6 rounded-full;
    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
    }
    .star-three{
-  @apply w-[2rem] h-[2.5rem] absolute top-[49.93rem] right-[6.25rem]
+  @apply absolute w-[3rem] h-[4rem] top-[49.93rem] right-[6.25rem]
  }
   .star-four{
-  @apply w-[2rem] h-[2.5rem] absolute top-[54.56rem] left-[9.81rem]
+  @apply absolute w-[3rem] h-[4rem] top-[54.56rem] left-[9.81rem]
  }
  
