@@ -1,10 +1,10 @@
 import Navbar from './Components/Navbar/Navbar'
 import './App.css'
-import Circle from './Components/Button/Circle/Circle';
-import Input from './Components/Input/Input';
+import Circle from './Components/Circle/Circle';
 import Button from './Components/Button/Button';
 import About from './Components/Section-two/About';
-import Footer from './Components/Button/Footer/Footer';
+import Footer from './Components/Footer/Footer';
+import GetstartedForm from './Components/Input/GetstartedForm';
 
 const lists = [
   {
@@ -42,6 +42,7 @@ function App() {
             boxShadow: "inset 1.02px 2.04px 51px #001D6E",
             position: "absolute",
             top: "14.43rem",
+            left: "2.25rem"
           }}
         ></div>
         <h1 className="header">
@@ -69,12 +70,8 @@ function App() {
             filter: "blur(0.93rem)",
           }}
         ></div>
-        <Input />
-        <Button
-          className="second-button outline-none border-none font-bold left-[35%]"
-          label="Get early access"
-        />
-        <div className=" flex items-center justify-center mt-6">
+        <GetstartedForm/>
+        <div className=" flex items-center justify-center mt-4">
           {lists.map((list, index) => (
             <div
               key={`lists -${index}`}
@@ -97,7 +94,7 @@ function App() {
         <img className="star-three" src="/Star.png" alt="" />
         <img className="star-four" src="/Star.png" alt="" />
       </section>
-      <About /> 
+      <About />
       <Footer />
     </section>
   );

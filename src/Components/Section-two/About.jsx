@@ -1,12 +1,12 @@
 import React from 'react'
 import Button from '../Button/Button';
-import Footer from '../Button/Footer/Footer';
+import Footer from '../Footer/Footer';
 import './About.css'
 
 const About = () => {
   return (
     <section className="about">
-      <img className="about-img" src="/Highlight 1.png" alt="" />
+      <img className="highlight-one" src="/Highlight 1.png" alt="" />
       <div
         style={{
           background: "linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%)",
@@ -16,10 +16,10 @@ const About = () => {
           boxShadow: "inset 1.02px 2.04px 51px #001D6E",
           position: "absolute",
           left: "8.62rem",
-          top: "6.25rem",
+          top: "6.31rem",
         }}
       ></div>
-      <img className="highlight" src="/Highlight 2.png" alt="" />
+      <img className="highlight-two" src="/Highlight 2.png" alt="" />
       <div className="about-container">
         <div className="left-section">
           <img className="star-five" src="/Star.png" alt="" />

@@ -8,7 +8,7 @@
   @apply left-[28.87rem] absolute top-[13.5rem];
  }
  .header{
-  @apply text-[4rem] font-black  w-[50.12rem] mx-auto text-center leading-[130%];
+  @apply text-[4rem] font-black  w-[50.12rem] mx-auto text-center leading-[130%] mt-[7.62rem];
  }
  .header span{
   @apply bg-clip-text text-transparent bg-[#BA2AD1] text-center;
@@ -30,6 +30,6 @@
   @apply absolute w-[3rem] h-[4rem] top-[49.93rem] right-[6.25rem];
  }
   .star-four{
-  @apply absolute w-[3rem] h-[4rem] top-[54.56rem] left-[9.81rem];
+  @apply absolute w-[3rem] h-[4rem] top-[50.56rem] left-[9.81rem] bottom-[5.43rem];
  }
  

@@ -1,0 +1,18 @@
+footer{
+    @apply border-t border-white pt-[1rem] w-11/12 pb-[4rem] mx-auto mt-[8.75rem];
+}
+.footer-left{
+    @apply flex gap-[1rem] items-start;
+}
+.footer-left p{
+    @apply w-[17.93rem];
+}
+.footer-right {
+@apply flex gap-[1rem] items-start;
+}
+.footer-flex{
+    @apply flex items-center justify-between;
+}
+.footer-flex p{
+    @apply font-bold;
+}
