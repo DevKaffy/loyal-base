@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../Button/Button';
-import Footer from '../Footer/Footer';
+import Footer from '../Button/Footer/Footer';
 import './About.css'
 
 const About = () => {
@@ -63,7 +63,6 @@ const About = () => {
         </form>
         <img className="star-seven" src="/Star.png" alt="" />
       </div>
-      <Footer />
     </section>
   );
 }

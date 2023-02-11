@@ -2,13 +2,13 @@
     @apply relative top-[45rem]
 }
 .about-img{
-    @apply absolute left-[70.18rem] top-[4.37rem]
+    
 }
 .highlight{
     @apply absolute left-[36.64rem] top-[8.62rem]
 }
 .about-container{
-    @apply absolute flex items-center gap-[12rem] top-[14.12rem] left-[5rem] my-[2rem]
+    @apply flex items-center gap-[12rem] my-[2rem]
 }
 .left-section{
     @apply mt-[3.87rem] w-[24rem]

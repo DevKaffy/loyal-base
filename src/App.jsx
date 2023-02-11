@@ -1,10 +1,10 @@
-import Navbar from './Navbar/Navbar'
+import Navbar from './Components/Navbar/Navbar'
 import './App.css'
-import Circle from './Circle/Circle';
-import Input from './Input/Input';
-import Button from './Button/Button';
-import About from './Section-two/About';
-import Footer from './Footer/Footer';
+import Circle from './Components/Button/Circle/Circle';
+import Input from './Components/Input/Input';
+import Button from './Components/Button/Button';
+import About from './Components/Section-two/About';
+import Footer from './Components/Button/Footer/Footer';
 
 const lists = [
   {
@@ -28,7 +28,7 @@ const lists = [
 function App() {
   return (
     <section>
-      <div className="hero-section">
+      <section className="hero-section">
         <Navbar />
         <Circle />
         <img className="star" src="/Star.png" alt="" />
@@ -74,7 +74,7 @@ function App() {
           className="second-button outline-none border-none font-bold left-[35%]"
           label="Get early access"
         />
-        <div className="absolute flex items-center justify-center top-[50rem]  left-[38rem]">
+        <div className=" flex items-center justify-center mt-6">
           {lists.map((list, index) => (
             <div
               key={`lists -${index}`}
@@ -96,8 +96,9 @@ function App() {
         </div>
         <img className="star-three" src="/Star.png" alt="" />
         <img className="star-four" src="/Star.png" alt="" />
-      </div>
-      <About />
+      </section>
+      <About /> 
+      <Footer />
     </section>
   );
 }

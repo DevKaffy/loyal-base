@@ -1,17 +1,20 @@
+ main{
+  @apply w-screen
+ }
  .hero-section{
-  @apply px-[2.25rem] py-16 relative
+  @apply px-[2.25rem] py-16 relative 
  }
  .star{
   @apply left-[28.87rem] absolute top-[13.5rem];
  }
  .header{
-  @apply text-[4rem] font-black absolute left-[19.93rem] top-[15.5rem] w-[50.12rem] text-center leading-[130%];
+  @apply text-[4rem] font-black  w-[50.12rem] mx-auto text-center leading-[130%];
  }
  .header span{
   @apply bg-clip-text text-transparent bg-[#BA2AD1] text-center;
  }
 .description{
-  @apply absolute h-[6.81rem] max-w-[50.62rem] top-[26.62rem] left-[20.68rem] text-center mt-[0.75rem];
+  @apply h-[6.81rem] max-w-[50.62rem] mx-auto text-center mt-[0.75rem];
 }
 .star-two{
   @apply left-[72.43rem] absolute top-[19.65rem];
@@ -20,7 +23,7 @@
   @apply absolute top-[32.95rem] right-[17.81rem];
  }
    .second-button{
-   @apply w-[27.68rem] h-[3.12rem] border border-white absolute top-[45rem] left-[30%] px-6 rounded-full;
+   @apply w-[27.68rem] h-[3.12rem] border border-white px-6 rounded-full;
    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
    }
    .star-three{
