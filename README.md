@@ -26,4 +26,4 @@ If you want to contact me you can reach me at
 - kafilatadewumi61@gmail.com
 
 ## Addtional Info
-- This is not meant for production. It's for learning purpose only
+- Loyalbase internship assessment.
