@@ -8,7 +8,6 @@ An implementation of loyalbaze landing page using html, css, React and Tailwindc
 - Home page
 
 ## Tech/framework used
-- Html
 - React
 - Css
 - TailwindCss
@@ -18,7 +17,7 @@ An implementation of loyalbaze landing page using html, css, React and Tailwindc
 
 ![screenshot](/public/loyal-baze-herosection.png)
 
-![screenshot](/public/loyal-baze-sectiontwo.png)
+![screenshot](/public/section-two.png)
 
 ## Contact
 If you want to contact me you can reach me at
