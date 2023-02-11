@@ -6,8 +6,12 @@
 }
 
 .priority{
-    @apply h-[2rem] w-[10rem] rounded-full outline-none font-bold;
-    border:2px solid;
-    border-image: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%) 5;
-    border-radius: 50px;
+    @apply h-auto w-auto p-[1px] font-bold;
+    background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
+    border-radius: 6.25rem;
+}
+.priority button{
+    @apply h-8 w-48 outline-none font-bold;
+    border-radius: 6.25rem;
+    background-color: #121B27;
 }
