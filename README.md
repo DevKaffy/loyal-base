@@ -1,5 +1,5 @@
 # loyalbaze
-An implementation of Figma file with html, css and Tailwindcss
+An implementation of loyalbaze landing page using html, css, React and Tailwindcss
 
 ## Prequisite
 - Your browser version should be up to date for better experience
@@ -26,4 +26,4 @@ If you want to contact me you can reach me at
 - kafilatadewumi61@gmail.com
 
 ## Addtional Info
-- Loyalbase internship assessment.
+- Loyalbaze internship assessment.
