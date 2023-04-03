@@ -1,58 +1,58 @@
 .about{
-    @apply relative py-16
+    @apply relative py-16;
 }
 .highlight-one{
-    @apply hidden lg:block  absolute top-[4.37rem] right-[9.53rem]
+    @apply hidden lg:block  absolute top-[4.37rem] right-[9.53rem];
 }
 .highlight-two{
-    @apply hidden lg:block absolute left-[36.64rem] top-[8.62rem]
+    @apply hidden lg:block absolute left-[36.64rem] top-[8.62rem];
 }
 .about-container{
-    @apply flex flex-col lg:grid lg:grid-cols-[34rem_39rem] gap-[5.12rem] pt-[11.12rem] max-w-max mx-auto
+    @apply flex flex-col lg:grid lg:grid-cols-[34rem_39rem] gap-[5.12rem] pt-[11.12rem] max-w-max mx-auto;
 }
 .left-section{
-    @apply pt-[3.87rem] 
+    @apply pt-[3.87rem];
 }
 .about-title{
     @apply lg:text-[3rem] text-[1.7rem]; 
 }
 .star-five{
-    @apply ml-[21rem] mb-[4.12rem]
+    @apply ml-[21rem] mb-[4.12rem];
 }
 .title-flex{
-    @apply flex flex-col items-center
+    @apply flex flex-col items-center;
 }
 .paragraph{
-    @apply mt-[1.5rem] text-center lg:text-start lg:w-[32.81rem]
+    @apply mt-[1.5rem] text-center lg:text-start lg:w-[32.81rem] px-4 lg:px-0;
 }
 .star-six{
-    @apply  w-[3rem] h-[4rem] self-end mt-4
+    @apply  w-[3rem] h-[4rem] self-end mt-4;
 }
 .second-form{
     @apply  bg-[#1D2939] rounded-[1.25rem] py-[3.5rem] px-[4.37rem] flex flex-col justify-center mx-4;
 }
 form p{
-@apply font-bold text-2xl mb-[2rem]
+@apply font-bold text-2xl mb-[2rem];
 }
 .form-input{
-    @apply flex flex-col gap-[1rem] 
+    @apply flex flex-col gap-[1rem]; 
 }
 .form-input input{
-    @apply w-full h-[3.12rem] px-[1rem] py-[1rem] rounded bg-transparent border border-white 
+    @apply w-full h-[3.12rem] px-[1rem] py-[1rem] rounded bg-transparent border border-white; 
 }
 .form-input select{
-    @apply w-full h-[3.12rem] px-[1rem] rounded bg-transparent border border-white outline-none
+    @apply w-full h-[3.12rem] px-[1rem] rounded bg-transparent border border-white outline-none;
 }
 select option{
-    @apply bg-black outline-none px-[1rem]
+    @apply bg-black outline-none px-[1rem];
 }
 .form-input textarea{
-    @apply w-full px-[1rem] rounded bg-transparent border border-white py-[1rem]
+    @apply w-full px-[1rem] rounded bg-transparent border border-white py-[1rem];
 }
 .third-button{
     @apply w-[15rem] h-[2rem] lg:w-[27.68rem] lg:h-[3.12rem] border border-white px-6 rounded-full mt-[2rem] mx-auto;
    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
 }
 .star-seven{
-    @apply w-[3rem] h-[4rem] absolute right-[2rem] top-[64.43rem]
+    @apply w-[3rem] h-[4rem] absolute right-[2rem] top-[64.43rem];
 }

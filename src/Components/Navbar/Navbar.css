@@ -2,16 +2,15 @@
     @apply px-[0.5rem]  lg:px-[6.25rem] flex items-center justify-between;
 }
 .navbar img{
-    @apply w-[8rem]  lg:w-[14.43rem] lg:h-[3.87rem];
+    @apply w-[8rem] h-[2.5rem] lg:w-[14.43rem] lg:h-[3.87rem];
 }
-
 .priority{
     @apply  lg:h-auto lg:w-auto p-[1px] font-bold;
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
     border-radius: 6.25rem;
 }
 .priority button{
-    @apply lg:h-8 lg:w-48 px-4 lg:px-0 outline-none font-bold;
+    @apply lg:h-8 lg:w-48 px-4 py-[0.3rem] lg:py-0 lg:px-0 outline-none font-bold;
     border-radius: 6.25rem;
     background-color: #121B27;
 }

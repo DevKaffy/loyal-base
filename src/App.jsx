@@ -1,7 +1,6 @@
 import Navbar from './Components/Navbar/Navbar'
 import './App.css'
 import Circle from './Components/Circle/Circle';
-import Button from './Components/Button/Button';
 import About from './Components/Section-two/About';
 import Footer from './Components/Footer/Footer';
 import GetstartedForm from './Components/Input/GetstartedForm';
