@@ -1,5 +1,5 @@
 .about{
-    @apply relative py-16;
+    @apply relative py-16 px-4;
 }
 .highlight-one{
     @apply hidden lg:block  absolute top-[4.37rem] right-[9.53rem];
@@ -29,7 +29,7 @@
     @apply  w-[3rem] h-[4rem] self-end mt-4;
 }
 .second-form{
-    @apply  bg-[#1D2939] rounded-[1.25rem] py-[3.5rem] px-[4.37rem] flex flex-col justify-center mx-4;
+    @apply  bg-[#1D2939] rounded-[1.25rem] py-[3.5rem] px-[2rem] lg:px-[4.37rem] flex flex-col justify-center mx-4;
 }
 form p{
 @apply font-bold text-2xl mb-[2rem];
@@ -50,7 +50,7 @@ select option{
     @apply w-full px-[1rem] rounded bg-transparent border border-white py-[1rem];
 }
 .third-button{
-    @apply w-[20rem] h-[2rem] lg:w-[27.68rem] lg:h-[3.12rem] border border-white px-6 rounded-full mt-[2rem] mx-auto;
+    @apply w-[23rem] h-[2rem] lg:w-[27.68rem] lg:h-[3.12rem] border border-white px-6 rounded-full mt-[2rem] mx-auto;
    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
 }
 .star-seven{

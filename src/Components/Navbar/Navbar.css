@@ -5,7 +5,7 @@
     @apply w-[8rem] h-[2.5rem] lg:w-[14.43rem] lg:h-[3.87rem];
 }
 .priority{
-    @apply  lg:h-auto lg:w-auto p-[1px] font-bold;
+    @apply lg:h-auto lg:w-auto p-[1px] font-bold;
     background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
     border-radius: 6.25rem;
 }
