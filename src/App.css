@@ -14,7 +14,7 @@
   @apply bg-clip-text text-transparent bg-[#BA2AD1] text-center;
  }
 .description{
-  @apply lg:h-[6.81rem] lg:max-w-[50.62rem] mb-[1rem] text-center mt-[0.75rem];
+  @apply lg:h-[6.81rem] lg:max-w-[50.62rem] mb-[1rem] mx-auto text-center mt-[0.75rem];
 }
 .star-two{
   @apply hidden lg:block left-[72.43rem] absolute top-[19.65rem];
