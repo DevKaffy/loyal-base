@@ -26,7 +26,7 @@
     @apply mt-[1.5rem] text-center lg:text-start lg:w-[32.81rem] px-4 lg:px-0;
 }
 .star-six{
-    @apply  w-[3rem] h-[4rem] self-end mt-4;
+    @apply w-[3rem] h-[4rem] self-end mt-4;
 }
 .second-form{
     @apply  bg-[#1D2939] rounded-[1.25rem] py-[3.5rem] px-[2rem] lg:px-[4.37rem] flex flex-col justify-center mx-4;
@@ -54,5 +54,5 @@ select option{
    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
 }
 .star-seven{
-    @apply w-[3rem] h-[4rem] absolute right-[2rem] top-[64.43rem];
+    @apply hidden lg:block w-[3rem] h-[4rem] absolute right-[2rem] top-[64.43rem];
 }
