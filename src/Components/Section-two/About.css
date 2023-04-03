@@ -38,10 +38,10 @@ form p{
     @apply flex flex-col gap-[1rem]; 
 }
 .form-input input{
-    @apply w-full h-[3.12rem] px-[1rem] py-[1rem] rounded bg-transparent border border-white; 
+    @apply w-full py-4 px-[1rem] rounded bg-transparent border border-white; 
 }
 .form-input select{
-    @apply w-full h-[3.12rem] px-[1rem] rounded bg-transparent border border-white outline-none;
+    @apply w-full py-4 px-[1rem] rounded bg-transparent border border-white outline-none;
 }
 select option{
     @apply bg-black outline-none px-[1rem];
@@ -50,7 +50,7 @@ select option{
     @apply w-full px-[1rem] rounded bg-transparent border border-white py-[1rem];
 }
 .third-button{
-    @apply w-[23rem] h-[2rem] lg:w-[27.68rem] lg:h-[3.12rem] border border-white px-6 rounded-full mt-[2rem] mx-auto;
+    @apply w-[23rem] lg:w-[27.68rem] border border-white px-6 rounded-full mt-[2rem] py-4 mx-auto;
    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
 }
 .star-seven{
