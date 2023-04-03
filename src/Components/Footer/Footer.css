@@ -1,6 +1,12 @@
 footer{
     @apply border-t border-white pt-[1rem] w-11/12 pb-[4rem] mx-auto mt-[8.75rem];
 }
+.footer-flex{
+    @apply flex gap-y-4 lg:gap-x-0 flex-col lg:flex-row items-center justify-between;
+}
+.footer-flex p{
+    @apply font-bold;
+}
 .footer-left{
     @apply flex gap-[1rem] items-start;
 }
@@ -9,10 +15,4 @@ footer{
 }
 .footer-right {
 @apply flex gap-[1rem] items-start;
-}
-.footer-flex{
-    @apply flex items-center justify-between;
-}
-.footer-flex p{
-    @apply font-bold;
 }

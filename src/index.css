@@ -20,15 +20,12 @@ body{
   font-size: 16px;
 }
 
-@media (max-width:1024){
+@media only screen and (max-width:768px){
   :root{
   font-size: 12px;
+
 }
+ 
 }
 
-@media (max-width:640px){
-  :root{
-  font-size: 10px;
-}
-}
 @tailwind utilities;

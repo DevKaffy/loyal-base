@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className="about">
       <img className="highlight-one" src="/Highlight 1.png" alt="" />
-      <div
+      <div className='hidden lg:block'
         style={{
           background: "linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%)",
           width: "6.37rem",
@@ -25,7 +25,7 @@ const About = () => {
           <img className="star-five" src="/Star.png" alt="" />
           <div className="title-flex">
             <h1 className="about-title">Priority Access</h1>
-            <img src="/Line.png" alt="" />
+            <img src="/Line.png" alt="" className='w-[5rem] h-[2rem] lg:w-auto lg:h-auto' />
             <p className="paragraph">
               Get ready to revolutionize the way you interact with your
               customers and drive sales with Loyalbaze. Skip the waitlist and

@@ -1,29 +1,29 @@
  main{
-  @apply w-screen
+  @apply w-screen;
  }
  .hero-section{
-  @apply px-[2.25rem] py-16 relative 
+  @apply px-[2rem] lg:px-[2.25rem] py-16 relative 
  }
  .star{
   @apply left-[28.87rem] absolute top-[13.5rem];
  }
  .header{
-  @apply text-[4rem] font-black  w-[50.12rem] mx-auto text-center leading-[130%] mt-[7.62rem];
+  @apply lg:text-[4rem] text-[1.7rem] font-black  lg:w-[50.12rem] mx-auto text-center lg:leading-[130%] mt-[7.62rem];
  }
  .header span{
   @apply bg-clip-text text-transparent bg-[#BA2AD1] text-center;
  }
 .description{
-  @apply h-[6.81rem] max-w-[50.62rem] mx-auto text-center mt-[0.75rem];
+  @apply lg:h-[6.81rem] max-w-[50.62rem] mb-[1rem] mx-auto text-center mt-[0.75rem];
 }
 .star-two{
   @apply left-[72.43rem] absolute top-[19.65rem];
  }
  .arrow{
-  @apply absolute top-[32.95rem] right-[17.81rem];
+  @apply hidden lg:block absolute top-[32.95rem] right-[17.81rem];
  }
    .second-button{
-   @apply w-[27.68rem] h-[3.12rem] border border-white px-6 rounded-full;
+   @apply w-[15rem] h-[2rem] lg:w-[27.68rem] lg:h-[3.12rem] border border-white px-6 rounded-full;
    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
    }
    .star-three{

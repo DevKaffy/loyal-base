@@ -34,6 +34,7 @@ function App() {
         <img className="star" src="/Star.png" alt="" />
         <div></div>
         <div
+          className="hidden lg:block"
           style={{
             background: "linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%)",
             width: "12.5rem",
@@ -42,7 +43,7 @@ function App() {
             boxShadow: "inset 1.02px 2.04px 51px #001D6E",
             position: "absolute",
             top: "14.43rem",
-            left: "2.25rem"
+            left: "2.25rem",
           }}
         ></div>
         <h1 className="header">
@@ -58,6 +59,7 @@ function App() {
         </p>
         <img className="arrow" src="/arrow.png" alt="" />
         <div
+          className="hidden lg:block"
           style={{
             background: "linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%)",
             width: "25rem",
@@ -70,7 +72,7 @@ function App() {
             filter: "blur(0.93rem)",
           }}
         ></div>
-        <GetstartedForm/>
+        <GetstartedForm />
         <div className=" flex items-center justify-center mt-4">
           {lists.map((list, index) => (
             <div
